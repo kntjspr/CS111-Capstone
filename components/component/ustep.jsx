@@ -9,9 +9,9 @@ import { Button } from "@/components/ui/button"
 export function USTEP() {
   return (
     (
-    <div className="bg-gray-100">
+    <div className="bg-gray-100 ">
       <header className="bg-white py-4 px-8 flex justify-between items-center shadow">
-        <div className="flex items-center">
+        <div className="flex items-center ">
           <img
             alt="Logo"
             className="h-10 w-10"
@@ -41,7 +41,7 @@ export function USTEP() {
             </nav>
           </div>
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center ">
           <SearchIcon className="text-gray-500 h-6 w-6 mr-4" />
           <BellIcon className="text-gray-500 h-6 w-6 mr-4" />
           <span className="mr-4">Kent Jasper Cabunoc Sisi</span>
@@ -51,7 +51,7 @@ export function USTEP() {
           </Avatar>
         </div>
       </header>
-      <main className="p-8">
+      <main className="p-8 ">
         <div className="grid grid-cols-3 gap-8">
           <div className="col-span-2">
             <h1 className="text-2xl font-bold mb-2">Introduction to Computing | CS111</h1>
@@ -62,9 +62,8 @@ export function USTEP() {
                 Dear Students, Welcome all of you to the new academic year! We are thrilled to be partnering with you as
                 you participate in an exciting educational journey of discovery.
               </p>
-              <Button className="bg-green-500 text-white">Done</Button>
             </section>
-            <section className="bg-white p-4 rounded shadow mb-4">
+            <section className="bg-white p-4 rounded shadow mb-4 ">
               <h2 className="font-bold mb-2">SYLLABUS (Course Guide)</h2>
               <div className="flex items-center mb-2">
                 <BookIcon className="text-gray-500 h-6 w-6 mr-2" />
@@ -76,12 +75,12 @@ export function USTEP() {
                 <li>You belong to CO-CD1B</li>
               </ul>
             </section>
-            <section className="bg-white p-4 rounded shadow">
+            <section className="bg-white p-4 rounded shadow ">
               <h2 className="font-bold mb-2">Lesson 1</h2>
               <div className="flex flex-col space-y-2">
-                <Button className="bg-gray-200 text-gray-800">Lab Quiz 1: Hexagons</Button>
-                <Button className="bg-gray-200 text-gray-800">Module 1: Hands-on Exercises</Button>
-                <Button className="bg-gray-200 text-gray-800">
+                <Button className="bg-gray-200 text-gray-800 hover:bg-yellow-400 py-2 px-4 sm:px-6 md:px-8 rounded">Lab Quiz 1: Hexagons</Button>
+                <Button className="bg-gray-200 text-gray-800 hover:bg-yellow-400 py-2 px-4 sm:px-6 md:px-8 rounded">Module 1: Hands-on Exercises</Button>
+                <Button className="bg-gray-200 text-gray-800 hover:bg-yellow-400 py-2 px-4 md:inline-block md:block">
                   Module 1: Introduction to Computers, Programs and Python
                 </Button>
               </div>
@@ -98,19 +97,19 @@ export function USTEP() {
             </div>
             <div className="bg-white p-4 rounded shadow mb-4">
               <h2 className="font-bold mb-2">Video Conference</h2>
-              <Button className="bg-yellow-400 text-white w-full">Join</Button>
+              <Button className="bg-yellow-400 text-white w-full hover:bg-gray-400">Join</Button>
             </div>
             <div className="bg-white p-4 rounded shadow mb-4">
               <h2 className="font-bold mb-2">Administration</h2>
               <div className="text-sm">
-                <Button className="bg-transparent text-blue-600">Course administration</Button>
-                <Button className="bg-transparent text-blue-600">Unenroll me from 2023-CIS112</Button>
+                <Button className="bg-transparent text-blue-600 hover:bg-yellow-400 hover:text-gray-800 py-2 px-4 sm:px-6 md:px-8 rounded">Course administration</Button>
+                <Button className="bg-transparent text-blue-600 hover:bg-yellow-400 hover:text-gray-800 py-2 px-4 sm:px-6 md:px-8 rounded">Unenroll me from 2023-CIS112</Button>
               </div>
             </div>
             <div className="bg-white p-4 rounded shadow">
               <h2 className="font-bold mb-2">Feedback</h2>
               <div className="flex flex-col space-y-2">
-                <Button className="bg-green-500 text-white">Send Feedback</Button>
+                <Button className="bg-yellow-400 text-white w-full hover:bg-gray-400">Send Feedback</Button>
               </div>
             </div>
           </div>
