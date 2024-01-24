@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button"
 export function USTEP() {
   return (
     (
-    <div className="bg-gray-100 ">
+    <div className="bg-gray-100 min-h-screen">
       <header className="bg-white py-4 px-8 flex justify-between items-center shadow">
         <div className="flex items-center ">
           <img
@@ -26,28 +26,28 @@ export function USTEP() {
           <div className="ml-4">
             <p className="text-sm font-semibold">University of Science and Technology e-Learning Portal</p>
             <nav className="text-xs">
-              <Link className="mr-4" href="#">
+              <Link className="mr-4 hover:text-blue-600" href="#">
                 Dashboard
               </Link>
-              <Link className="mr-4" href="#">
+              <Link className="mr-4 hover:text-blue-600" href="#">
                 Pages
               </Link>
-              <Link className="mr-4" href="#">
+              <Link className="mr-4 hover:text-blue-600" href="#">
                 Categories
               </Link>
-              <Link className="mr-4" href="#">
+              <Link className="mr-4 hover:text-blue-600" href="#">
                 My courses
               </Link>
             </nav>
           </div>
         </div>
         <div className="flex items-center ">
-          <SearchIcon className="text-gray-500 h-6 w-6 mr-4" />
-          <BellIcon className="text-gray-500 h-6 w-6 mr-4" />
+          <a href="#"><SearchIcon className="text-gray-500 h-6 w-6 mr-4 hover:text-blue-600" /></a>
+          <a href="#"><BellIcon className="text-gray-500 h-6 w-6 mr-4 hover:text-blue-600" /></a>
           <span className="mr-4">Kent Jasper Cabunoc Sisi</span>
           <Avatar>
-            <AvatarImage alt="User" src="/pfp.jpg?height=40&width=40" />
-            <AvatarFallback>U</AvatarFallback>
+          <a href="#"><AvatarImage alt="User" src="/pfp.jpg?height=40&width=40" /></a>
+            <AvatarFallback>K</AvatarFallback>
           </Avatar>
         </div>
       </header>
@@ -67,7 +67,7 @@ export function USTEP() {
               <h2 className="font-bold mb-2">SYLLABUS (Course Guide)</h2>
               <div className="flex items-center mb-2">
                 <BookIcon className="text-gray-500 h-6 w-6 mr-2" />
-                <span className="text-sm">Syllabus</span>
+                <span className="text-sm hover:text-blue-600">Syllabus</span>
               </div>
               <p className="text-xs text-gray-600 mb-2">Restricted Not available unless:</p>
               <ul className="text-xs text-gray-600 list-disc pl-4">
@@ -90,9 +90,9 @@ export function USTEP() {
             <div className="bg-white p-4 rounded shadow mb-4">
               <h2 className="font-bold mb-2">Activities</h2>
               <ul className="text-sm list-disc pl-4">
-                <li><a href="#">Assignments</a></li>
-                <li><a href="#">Quizzes</a></li>
-                <li><a href="#">Resources</a></li>
+                <li><a href="#" className="hover:text-blue-600">Assignments</a></li>
+                <li><a href="#" className="hover:text-blue-600">Quizzes</a></li>
+                <li><a href="#" className="hover:text-blue-600">Resources</a></li>
               </ul>
             </div>
             <div className="bg-white p-4 rounded shadow mb-4">
